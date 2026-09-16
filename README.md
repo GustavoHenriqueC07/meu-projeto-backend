@@ -1,25 +1,20 @@
-# meu-projeto-backend
-# Player API
+# API de Jogador
 
-A simple REST API developed with TypeScript and Express.js to simulate a player system.
+Uma API REST desenvolvida com TypeScript e Express.js para simular um sistema simples de jogador.
 
-The project uses Object-Oriented Programming (OOP) concepts to manage a player, including health, level, attacks, damage, and healing.
+O projeto utiliza conceitos de Programação Orientada a Objetos (POO) para controlar informações como nome, vida, nível, ataque, dano e cura.
 
-## Technologies
+## Tecnologias utilizadas
 
 - TypeScript
 - Node.js
 - Express.js
 - REST API
 
-## Project Structure
+## Estrutura do projeto
 
 ```text
 src/
 ├── models/
 │   └── player.ts
 └── server.ts
-npm run dev
-Se tudo estiver correto, o terminal exibirá:
-Servidor rodando em http://localhost:8081
-```
